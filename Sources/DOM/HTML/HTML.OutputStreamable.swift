@@ -19,8 +19,7 @@ extension HTML {
 }
 extension HTML.OutputStreamable {
     /// Does nothing.
-    @inlinable public static func |= (html: inout HTML.AttributeEncoder, self: Self) {
-    }
+    @inlinable public static func |= (html: inout HTML.AttributeEncoder, self: Self) {}
 
     @available(*, unavailable, renamed: "|=")
     public static func += (html: inout HTML.AttributeEncoder, self: Self) {

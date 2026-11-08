@@ -1,4 +1,2 @@
-extension String: HTML.OutputStreamable {
-}
-extension String: SVG.OutputStreamable {
-}
+extension String: HTML.OutputStreamable {}
+extension String: SVG.OutputStreamable {}

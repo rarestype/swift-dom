@@ -12,10 +12,8 @@ extension HTML {
         }
     }
 }
-extension HTML.Link: Equatable where Display: Equatable {
-}
-extension HTML.Link: Sendable where Display: Sendable {
-}
+extension HTML.Link: Equatable where Display: Equatable {}
+extension HTML.Link: Sendable where Display: Sendable {}
 extension HTML.Link: HTML.OutputStreamable
     where Display: HTML.OutputStreamable {
     @inlinable public static func += (html: inout HTML.ContentEncoder, self: Self) {

@@ -1,2 +1,1 @@
-@frozen @usableFromInline enum DOM {
-}
+@frozen @usableFromInline enum DOM {}

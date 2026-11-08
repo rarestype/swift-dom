@@ -17,12 +17,9 @@ extension SVG {
         }
     }
 }
-extension SVG.Point: Equatable where Scalar: Equatable {
-}
-extension SVG.Point: Hashable where Scalar: Hashable {
-}
-extension SVG.Point: Sendable where Scalar: Sendable {
-}
+extension SVG.Point: Equatable where Scalar: Equatable {}
+extension SVG.Point: Hashable where Scalar: Hashable {}
+extension SVG.Point: Sendable where Scalar: Sendable {}
 extension SVG.Point<Float> {
     @inlinable public init(radians: Float, radius: Float = 1.0) {
         self.init(radius * _cos(radians), radius * -_sin(radians))

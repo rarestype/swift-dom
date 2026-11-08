@@ -138,8 +138,7 @@ extension HTML {
 
 
         @frozen public struct Factory {
-            @inlinable init() {
-            }
+            @inlinable init() {}
             @inlinable public var accept: Attribute {
                 .accept
             }
