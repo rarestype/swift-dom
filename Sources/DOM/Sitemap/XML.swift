@@ -1,2 +1,1 @@
-@frozen public enum XML {
-}
+@frozen public enum XML {}

@@ -11,8 +11,7 @@ extension SVG {
 }
 extension SVG.OutputStreamable {
     /// Does nothing.
-    @inlinable public static func |= (svg: inout SVG.AttributeEncoder, self: Self) {
-    }
+    @inlinable public static func |= (svg: inout SVG.AttributeEncoder, self: Self) {}
 }
 extension SVG.OutputStreamable where Self: StringProtocol {
     @inlinable public static func += (svg: inout SVG.ContentEncoder, self: Self) {

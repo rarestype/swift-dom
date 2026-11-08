@@ -15,7 +15,8 @@ extension MacroExpansionContext {
 
             self.diagnose(
                 .init(
-                    node: node, message: MacroExpansionMessage.init(
+                    node: node,
+                    message: MacroExpansionMessage.init(
                         severity: severity,
                         message: value
                     )

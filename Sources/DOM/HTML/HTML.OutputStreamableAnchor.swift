@@ -3,8 +3,7 @@ extension HTML {
     /// `id` attribute when encoded with single-element subscript assignment. Behaves
     /// identically to an ordinary ``HTML.OutputStreamable`` value when streamed to an
     /// ``HTML.ContentEncoder``.
-    public protocol OutputStreamableAnchor: HTML.OutputStreamable, Identifiable<String> {
-    }
+    public protocol OutputStreamableAnchor: HTML.OutputStreamable, Identifiable<String> {}
 }
 extension HTML.OutputStreamableAnchor {
     /// Encodes the ``Identifiable/id [requirement]`` property to the parent element’s `id`
